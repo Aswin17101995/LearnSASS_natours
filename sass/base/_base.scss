@@ -1,0 +1,17 @@
+@import "../abstracts/variable";
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+html {
+    /* default font size 16px  we wat only 10 px so convert to percent 10/16*/
+    font-size: 62.5%;
+    /* 1rem = root font size  1rem = 10px*/
+}
+body{
+    box-sizing: border-box;
+}
